@@ -1,0 +1,85 @@
+{
+  "file": "001.png",
+  "company": "Miller",
+  "invoice_number": "802205",
+  "invoice_date": "05.08.2007",
+  "currency": "GBP",
+  "language": "en",
+  "ship_to": "Hayes LLC Mercedes Martinez 960 Hurley Springs",
+  "vat": "Qu96730920377",
+  "totals": {
+    "subtotal": 141.66,
+    "discount": -43.03,
+    "tax": null,
+    "shipping": null,
+    "invoice_total": 534.11,
+    "amount_due": 61.79,
+    "note": "invoice_total != amount_due (expected when discount / credit / advance applied)",
+    "subtotal_computed": 2565.06,
+    "invoice_computed": 2608.09
+  },
+  "status": {
+    "subtotal": "FAIL",
+    "invoice_total": "FAIL",
+    "overall": "FAIL",
+    "manual_review": "YES"
+  },
+  "line_items": [
+    {
+      "description": "transform open-source",
+      "quantity": 6.27,
+      "unit_price": 41.57,
+      "total_price": 329.62,
+      "computed": 260.64,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "innovate transparent",
+      "quantity": 5.62,
+      "unit_price": 10.47,
+      "total_price": 986.28,
+      "computed": 58.84,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "optimize innovative action-items",
+      "quantity": 7.11,
+      "unit_price": 97.41,
+      "total_price": 559.69,
+      "computed": 692.59,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "enhance e-business initiatives",
+      "quantity": 4.75,
+      "unit_price": 88.26,
+      "total_price": 311.4,
+      "computed": 419.24,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "morph value-added markets",
+      "quantity": 8.39,
+      "unit_price": 65.07,
+      "total_price": 831.07,
+      "computed": 545.94,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "cultivate compelling systems",
+      "quantity": 3.97,
+      "unit_price": 81.13,
+      "total_price": 671.29,
+      "computed": 322.09,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "re-contextualize leading-edge",
+      "quantity": 7.82,
+      "unit_price": 33.98,
+      "total_price": 738.83,
+      "computed": 265.72,
+      "status": "MISMATCH"
+    }
+  ]
+}

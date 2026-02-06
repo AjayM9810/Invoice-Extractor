@@ -1,0 +1,45 @@
+{
+  "file": "002.png",
+  "company": "Williams",
+  "invoice_number": "706585",
+  "invoice_date": "10.01.2012",
+  "currency": "GBP",
+  "language": "en",
+  "ship_to": "Wilson PLC Diane Myers",
+  "vat": "TN21504218908",
+  "totals": {
+    "subtotal": 172.27,
+    "discount": -12.63,
+    "tax": null,
+    "shipping": null,
+    "invoice_total": 756.81,
+    "amount_due": 97.6,
+    "note": "invoice_total != amount_due (expected when discount / credit / advance applied)",
+    "subtotal_computed": 669.91,
+    "invoice_computed": 682.54
+  },
+  "status": {
+    "subtotal": "FAIL",
+    "invoice_total": "FAIL",
+    "overall": "FAIL",
+    "manual_review": "YES"
+  },
+  "line_items": [
+    {
+      "description": "envisioneer magnetic",
+      "quantity": 2.32,
+      "unit_price": 36.74,
+      "total_price": 579.01,
+      "computed": 85.24,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "strategize frictionless",
+      "quantity": 9.58,
+      "unit_price": 61.03,
+      "total_price": 448.48,
+      "computed": 584.67,
+      "status": "MISMATCH"
+    }
+  ]
+}

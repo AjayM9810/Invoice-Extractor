@@ -1,0 +1,61 @@
+{
+  "file": "demo-invoice-20tax-3.pdf",
+  "company": "Profile",
+  "invoice_number": "429770",
+  "invoice_date": "1/3/2026",
+  "currency": "USD",
+  "language": "en",
+  "ship_to": "ACME Inc",
+  "vat": "N/A",
+  "totals": {
+    "subtotal": 3299.9,
+    "shipping": 500.0,
+    "invoice_total": 4459.88,
+    "tax": 659.98,
+    "invoice_total_mismatch": true,
+    "subtotal_mismatch": true,
+    "discount": 0.0,
+    "subtotal_computed": 11469.9,
+    "invoice_computed": 12629.88
+  },
+  "status": {
+    "subtotal": "FAIL",
+    "invoice_total": "FAIL",
+    "overall": "FAIL",
+    "manual_review": "YES"
+  },
+  "line_items": [
+    {
+      "description": "Material A",
+      "quantity": 25.0,
+      "unit_price": 250.0,
+      "total_price": 6250.0,
+      "computed": 6250.0,
+      "status": "MATCH"
+    },
+    {
+      "description": "Cement 20 lbs",
+      "quantity": 8.0,
+      "unit_price": 240.0,
+      "total_price": 1920.0,
+      "computed": 1920.0,
+      "status": "MATCH"
+    },
+    {
+      "description": "Aluminum siding",
+      "quantity": 6.0,
+      "unit_price": 500.0,
+      "total_price": 3000.0,
+      "computed": 3000.0,
+      "status": "MATCH"
+    },
+    {
+      "description": "Material B",
+      "quantity": 10.0,
+      "unit_price": 29.99,
+      "total_price": 299.9,
+      "computed": 299.9,
+      "status": "MATCH"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+quantity,item_code,description,unit_price,total_price,computed,status
+5.0,M0018,Polyol,1.99,9.95,9.95,MATCH
+5.0,M0019,Diisocyanate,1.99,9.95,9.95,MATCH
+5.0,M0020,Carbon Dioxide,1.99,9.95,9.95,MATCH
+5.0,M0052,Laser,1.99,9.95,9.95,MATCH
+5.0,M0053,Lens,1.99,9.95,9.95,MATCH
+5.0,M2005,Oleic Acid,1.99,9.95,9.95,MATCH
+5.0,M2007,Glycerine,1.99,9.95,9.95,MATCH
+10.0,M2008,Sodium Tallowate,4.99,49.9,49.9,MATCH
+10.0,M3006,Paint Base,4.99,49.9,49.9,MATCH
+5.0,M4004,Polypropylene,1.99,9.95,9.95,MATCH
+1.0,M4005,Rubber,10.99,10.99,10.99,MATCH
+1.0,M4007,Additive,10.99,10.99,10.99,MATCH
+1.0,M4008,Pigment,10.99,10.99,10.99,MATCH
+5.0,M5001,Aluminum Silicate,1.99,9.95,9.95,MATCH
+10.0,M5002,Magnesium Silicate,4.99,49.9,49.9,MATCH
+10.0,M5003,Zinc Oxide,4.99,49.9,49.9,MATCH
+10.0,M5004,Distilled Solvent,4.99,49.9,49.9,MATCH
+5.0,M5005,Petroleum Distillate,1.99,9.95,9.95,MATCH
+10.0,M7001,Sulfur Dioxide,3.99,39.9,39.9,MATCH
+10.0,M7002,Sodium Benzoate,3.99,39.9,39.9,MATCH
+5.0,M9202,Dust cap,1.99,9.95,9.95,MATCH
+1.0,M9203,Ferrite cap,9.95,9.95,9.95,MATCH
+1.0,M9210,Cone and coil assembly,9.95,9.95,9.95,MATCH
+5.0,P2000,Cleaner,1.99,9.95,9.95,MATCH
+1.0,P4000,Polypropylene pellets,16.5,16.5,16.5,MATCH
+7.0,P4001,Polypropylene chips,36.5,255.5,255.5,MATCH
+10.0,P4002,Polypropylene blocks,9.99,99.9,99.9,MATCH
+10.0,P4003,Polypropylene slag,9.99,99.9,99.9,MATCH
+5.0,P5000,Parts Wash Solvent,1.99,9.95,9.95,MATCH
+1.0,M9104,Jar,17.99,17.99,17.99,MATCH
+10.0,M9005,Plastic Bottle – 15.2 FL Oz (450,1.49,14.9,14.9,MATCH
+5.0,PK-237,Polymer,5.99,29.95,29.95,MATCH

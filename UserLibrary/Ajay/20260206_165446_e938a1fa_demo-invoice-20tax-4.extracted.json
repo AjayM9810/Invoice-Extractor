@@ -1,0 +1,316 @@
+{
+  "file": "demo-invoice-20tax-4.pdf",
+  "company": "Anconia",
+  "invoice_number": "568323",
+  "invoice_date": "1/3/2026",
+  "currency": "GBP",
+  "language": "en",
+  "ship_to": "ACME Inc",
+  "vat": "N/A",
+  "totals": {
+    "subtotal": 1046.16,
+    "tax": 209.23,
+    "invoice_total": 1255.39,
+    "invoice_total_mismatch": true,
+    "discount": 0.0,
+    "shipping": 0.0,
+    "subtotal_computed": 1046.16,
+    "invoice_computed": 1255.39
+  },
+  "status": {
+    "subtotal": "PASS",
+    "invoice_total": "PASS",
+    "overall": "PASS",
+    "manual_review": "NO"
+  },
+  "line_items": [
+    {
+      "quantity": 5.0,
+      "item_code": "M0018",
+      "description": "Polyol",
+      "unit_price": 1.99,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 5.0,
+      "item_code": "M0019",
+      "description": "Diisocyanate",
+      "unit_price": 1.99,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 5.0,
+      "item_code": "M0020",
+      "description": "Carbon Dioxide",
+      "unit_price": 1.99,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 5.0,
+      "item_code": "M0052",
+      "description": "Laser",
+      "unit_price": 1.99,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 5.0,
+      "item_code": "M0053",
+      "description": "Lens",
+      "unit_price": 1.99,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 5.0,
+      "item_code": "M2005",
+      "description": "Oleic Acid",
+      "unit_price": 1.99,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 5.0,
+      "item_code": "M2007",
+      "description": "Glycerine",
+      "unit_price": 1.99,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 10.0,
+      "item_code": "M2008",
+      "description": "Sodium Tallowate",
+      "unit_price": 4.99,
+      "total_price": 49.9,
+      "computed": 49.9,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 10.0,
+      "item_code": "M3006",
+      "description": "Paint Base",
+      "unit_price": 4.99,
+      "total_price": 49.9,
+      "computed": 49.9,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 5.0,
+      "item_code": "M4004",
+      "description": "Polypropylene",
+      "unit_price": 1.99,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 1.0,
+      "item_code": "M4005",
+      "description": "Rubber",
+      "unit_price": 10.99,
+      "total_price": 10.99,
+      "computed": 10.99,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 1.0,
+      "item_code": "M4007",
+      "description": "Additive",
+      "unit_price": 10.99,
+      "total_price": 10.99,
+      "computed": 10.99,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 1.0,
+      "item_code": "M4008",
+      "description": "Pigment",
+      "unit_price": 10.99,
+      "total_price": 10.99,
+      "computed": 10.99,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 5.0,
+      "item_code": "M5001",
+      "description": "Aluminum Silicate",
+      "unit_price": 1.99,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 10.0,
+      "item_code": "M5002",
+      "description": "Magnesium Silicate",
+      "unit_price": 4.99,
+      "total_price": 49.9,
+      "computed": 49.9,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 10.0,
+      "item_code": "M5003",
+      "description": "Zinc Oxide",
+      "unit_price": 4.99,
+      "total_price": 49.9,
+      "computed": 49.9,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 10.0,
+      "item_code": "M5004",
+      "description": "Distilled Solvent",
+      "unit_price": 4.99,
+      "total_price": 49.9,
+      "computed": 49.9,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 5.0,
+      "item_code": "M5005",
+      "description": "Petroleum Distillate",
+      "unit_price": 1.99,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 10.0,
+      "item_code": "M7001",
+      "description": "Sulfur Dioxide",
+      "unit_price": 3.99,
+      "total_price": 39.9,
+      "computed": 39.9,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 10.0,
+      "item_code": "M7002",
+      "description": "Sodium Benzoate",
+      "unit_price": 3.99,
+      "total_price": 39.9,
+      "computed": 39.9,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 5.0,
+      "item_code": "M9202",
+      "description": "Dust cap",
+      "unit_price": 1.99,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 1.0,
+      "item_code": "M9203",
+      "description": "Ferrite cap",
+      "unit_price": 9.95,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 1.0,
+      "item_code": "M9210",
+      "description": "Cone and coil assembly",
+      "unit_price": 9.95,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 5.0,
+      "item_code": "P2000",
+      "description": "Cleaner",
+      "unit_price": 1.99,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 1.0,
+      "item_code": "P4000",
+      "description": "Polypropylene pellets",
+      "unit_price": 16.5,
+      "total_price": 16.5,
+      "computed": 16.5,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 7.0,
+      "item_code": "P4001",
+      "description": "Polypropylene chips",
+      "unit_price": 36.5,
+      "total_price": 255.5,
+      "computed": 255.5,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 10.0,
+      "item_code": "P4002",
+      "description": "Polypropylene blocks",
+      "unit_price": 9.99,
+      "total_price": 99.9,
+      "computed": 99.9,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 10.0,
+      "item_code": "P4003",
+      "description": "Polypropylene slag",
+      "unit_price": 9.99,
+      "total_price": 99.9,
+      "computed": 99.9,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 5.0,
+      "item_code": "P5000",
+      "description": "Parts Wash Solvent",
+      "unit_price": 1.99,
+      "total_price": 9.95,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 1.0,
+      "item_code": "M9104",
+      "description": "Jar",
+      "unit_price": 17.99,
+      "total_price": 17.99,
+      "computed": 17.99,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 10.0,
+      "item_code": "M9005",
+      "description": "Plastic Bottle \u2013 15.2 FL Oz (450",
+      "unit_price": 1.49,
+      "total_price": 14.9,
+      "computed": 14.9,
+      "status": "MATCH"
+    },
+    {
+      "quantity": 5.0,
+      "item_code": "PK-237",
+      "description": "Polymer",
+      "unit_price": 5.99,
+      "total_price": 29.95,
+      "computed": 29.95,
+      "status": "MATCH"
+    }
+  ]
+}

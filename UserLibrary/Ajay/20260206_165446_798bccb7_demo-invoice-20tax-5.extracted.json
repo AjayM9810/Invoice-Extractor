@@ -1,0 +1,36 @@
+{
+  "file": "demo-invoice-20tax-5.pdf",
+  "company": "Cloud",
+  "invoice_number": "557717",
+  "invoice_date": "January 3, 2026",
+  "currency": "EUR",
+  "language": "en",
+  "ship_to": "ACME Inc",
+  "vat": "N/A",
+  "totals": {
+    "subtotal": 42.35,
+    "invoice_total": 50.82,
+    "tax": 8.47,
+    "invoice_total_mismatch": true,
+    "discount": 0.0,
+    "shipping": 0.0,
+    "subtotal_computed": 42.35,
+    "invoice_computed": 50.82
+  },
+  "status": {
+    "subtotal": "PASS",
+    "invoice_total": "PASS",
+    "overall": "PASS",
+    "manual_review": "NO"
+  },
+  "line_items": [
+    {
+      "description": "Level II Cloud VPS",
+      "quantity": null,
+      "unit_price": null,
+      "total_price": 42.35,
+      "computed": 42.35,
+      "status": "MATCH"
+    }
+  ]
+}
