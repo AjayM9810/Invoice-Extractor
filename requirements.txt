@@ -1,0 +1,9 @@
+streamlit==1.47.1
+pandas==2.2.2
+Pillow==10.3.0
+pytesseract
+langdetect
+deep-translator==1.11.4
+pdf2image
+pdfplumber
+PyMuPDF
