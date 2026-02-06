@@ -1,0 +1,88 @@
+{
+  "file": "demo-invoice-20tax-1.pdf",
+  "company": "Polychemtex",
+  "invoice_number": "58818",
+  "invoice_date": "1/3/2026",
+  "currency": "GBP",
+  "language": "en",
+  "ship_to": "ACME Inc",
+  "vat": "N/A",
+  "totals": {
+    "subtotal": 1072.83,
+    "shipping": 1.0,
+    "tax": 214.57,
+    "invoice_total": 1287.4,
+    "invoice_total_mismatch": true,
+    "discount": 0.0,
+    "subtotal_computed": 1072.83,
+    "invoice_computed": 1288.4
+  },
+  "status": {
+    "subtotal": "PASS",
+    "invoice_total": "PASS",
+    "overall": "PASS",
+    "manual_review": "NO"
+  },
+  "line_items": [
+    {
+      "item_code": "M0061",
+      "description": "Catalyst 1 liter",
+      "quantity": 10.0,
+      "rebate": "59.99 9.99",
+      "total_price": 500.0,
+      "unit_price": 50.0,
+      "computed": 500.0,
+      "status": "MATCH"
+    },
+    {
+      "item_code": "M0062",
+      "description": "Resin",
+      "quantity": 10.0,
+      "rebate": "59.99 9.99",
+      "total_price": 500.0,
+      "unit_price": 50.0,
+      "computed": 500.0,
+      "status": "MATCH"
+    },
+    {
+      "item_code": "M2001",
+      "description": "Deionized water",
+      "quantity": 5.0,
+      "rebate": "1.99",
+      "total_price": 9.95,
+      "unit_price": 1.99,
+      "computed": 9.95,
+      "status": "MATCH"
+    },
+    {
+      "item_code": "M2002",
+      "description": "Potassium Hydroxide",
+      "quantity": 1.0,
+      "rebate": "17.99",
+      "total_price": 17.99,
+      "unit_price": 17.99,
+      "computed": 17.99,
+      "status": "MATCH"
+    },
+    {
+      "item_code": "M2004",
+      "description": "EDTA",
+      "quantity": 10.0,
+      "rebate": "1.49",
+      "total_price": 14.9,
+      "unit_price": 1.49,
+      "computed": 14.9,
+      "status": "MATCH"
+    },
+    {
+      "item_code": "M0060",
+      "description": "Polymer",
+      "quantity": 1.0,
+      "rebate": "29.99",
+      "total_price": 29.99,
+      "unit_price": 29.99,
+      "computed": 29.99,
+      "status": "MATCH"
+    }
+  ]
+}

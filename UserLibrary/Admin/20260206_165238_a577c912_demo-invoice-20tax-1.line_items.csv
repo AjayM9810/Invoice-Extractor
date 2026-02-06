@@ -1,0 +1,7 @@
+item_code,description,quantity,rebate,total_price,unit_price,computed,status
+M0061,Catalyst 1 liter,10.0,59.99 9.99,500.0,50.0,500.0,MATCH
+M0062,Resin,10.0,59.99 9.99,500.0,50.0,500.0,MATCH
+M2001,Deionized water,5.0,1.99,9.95,1.99,9.95,MATCH
+M2002,Potassium Hydroxide,1.0,17.99,17.99,17.99,17.99,MATCH
+M2004,EDTA,10.0,1.49,14.9,1.49,14.9,MATCH
+M0060,Polymer,1.0,29.99,29.99,29.99,29.99,MATCH

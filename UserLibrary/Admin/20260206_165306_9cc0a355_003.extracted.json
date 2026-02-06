@@ -1,0 +1,53 @@
+{
+  "file": "003.png",
+  "company": "Williams-Johnson",
+  "invoice_number": "436251",
+  "invoice_date": "23.12.1991",
+  "currency": "GBP",
+  "language": "en",
+  "ship_to": "Mcbride Inc Melissa Miller 219 Hall Plaza",
+  "vat": "hV85479687918",
+  "totals": {
+    "subtotal": 151.41,
+    "discount": -38.39,
+    "tax": null,
+    "shipping": null,
+    "invoice_total": 350.83,
+    "amount_due": 136.96,
+    "note": "invoice_total != amount_due (expected when discount / credit / advance applied)",
+    "subtotal_computed": 1847.37,
+    "invoice_computed": 1885.76
+  },
+  "status": {
+    "subtotal": "FAIL",
+    "invoice_total": "FAIL",
+    "overall": "FAIL",
+    "manual_review": "YES"
+  },
+  "line_items": [
+    {
+      "description": "revolutionize ubiquitous",
+      "quantity": 7.41,
+      "unit_price": 79.89,
+      "total_price": 301.87,
+      "computed": 591.98,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "enable mindshare 24/365",
+      "quantity": 4.14,
+      "unit_price": 98.71,
+      "total_price": 201.16,
+      "computed": 408.66,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "transform interactive",
+      "quantity": 9.5,
+      "unit_price": 89.13,
+      "total_price": 808.63,
+      "computed": 846.73,
+      "status": "MISMATCH"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "file": "004.png",
+  "company": "Holt-Mercado",
+  "invoice_number": "807426",
+  "invoice_date": "02.10.1993",
+  "currency": "GBP",
+  "language": "en",
+  "ship_to": "Barnett, White and James Nicole Martin Morrisfort, IA 95132",
+  "vat": "kz32957163737",
+  "totals": {
+    "subtotal": 63.54,
+    "discount": -23.88,
+    "tax": null,
+    "shipping": null,
+    "invoice_total": 704.26,
+    "amount_due": 89.63,
+    "note": "invoice_total != amount_due (expected when discount / credit / advance applied)",
+    "subtotal_computed": 181.58,
+    "invoice_computed": 205.46
+  },
+  "status": {
+    "subtotal": "FAIL",
+    "invoice_total": "FAIL",
+    "overall": "FAIL",
+    "manual_review": "YES"
+  },
+  "line_items": [
+    {
+      "description": "embrace wireless",
+      "quantity": 4.31,
+      "unit_price": 42.13,
+      "total_price": 927.22,
+      "computed": 181.58,
+      "status": "MISMATCH"
+    }
+  ]
+}

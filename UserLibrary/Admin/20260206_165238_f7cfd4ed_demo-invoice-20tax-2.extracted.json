@@ -1,0 +1,73 @@
+{
+  "file": "demo-invoice-20tax-2.pdf",
+  "company": "Contoso",
+  "invoice_number": "393761",
+  "invoice_date": "1/3/2026",
+  "currency": "CNY",
+  "language": "en",
+  "ship_to": "ACME Inc",
+  "vat": "N/A",
+  "totals": {
+    "subtotal": 481059.99,
+    "shipping": 1.0,
+    "tax": 96212.0,
+    "invoice_total": 577271.99,
+    "invoice_total_mismatch": true,
+    "discount": 0.0,
+    "subtotal_computed": 481059.89,
+    "invoice_computed": 577272.89
+  },
+  "status": {
+    "subtotal": "PASS",
+    "invoice_total": "PASS",
+    "overall": "PASS",
+    "manual_review": "NO"
+  },
+  "line_items": [
+    {
+      "item_code": "1 12345",
+      "description": "SpeakerCable Speaker cable 10",
+      "quantity": 650.0,
+      "total_price": 195000.0,
+      "unit_price": 300.0,
+      "computed": 195000.0,
+      "status": "MATCH"
+    },
+    {
+      "item_code": "2 55551",
+      "description": "SurroundSoundReceive",
+      "quantity": 450.0,
+      "total_price": 144000.0,
+      "unit_price": 320.0,
+      "computed": 144000.0,
+      "status": "MATCH"
+    },
+    {
+      "item_code": "3 12333",
+      "description": "TelevisionM12037 Television M120",
+      "quantity": 37.0,
+      "total_price": 100000.0,
+      "unit_price": 2702.7,
+      "computed": 99999.9,
+      "status": "MATCH"
+    },
+    {
+      "item_code": "4 22333",
+      "description": "Soundbar",
+      "quantity": 350.0,
+      "total_price": 42000.0,
+      "unit_price": 120.0,
+      "computed": 42000.0,
+      "status": "MATCH"
+    },
+    {
+      "item_code": "5 17111",
+      "description": "0.1 Cable",
+      "quantity": 1.0,
+      "total_price": 59.99,
+      "unit_price": 59.99,
+      "computed": 59.99,
+      "status": "MATCH"
+    }
+  ]
+}

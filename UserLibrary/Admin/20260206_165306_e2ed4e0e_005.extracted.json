@@ -1,0 +1,85 @@
+{
+  "file": "005.png",
+  "company": "Garza-Norris",
+  "invoice_number": "614625",
+  "invoice_date": "16.07.2011",
+  "currency": "GBP",
+  "language": "en",
+  "ship_to": "Sanchez Inc Ryan Davis West Kristenfurt, MT 95623",
+  "vat": "Rc33944645425",
+  "totals": {
+    "subtotal": 168.65,
+    "discount": -18.49,
+    "tax": null,
+    "shipping": null,
+    "invoice_total": 699.63,
+    "amount_due": 113.98,
+    "note": "invoice_total != amount_due (expected when discount / credit / advance applied)",
+    "subtotal_computed": 2673.37,
+    "invoice_computed": 2691.86
+  },
+  "status": {
+    "subtotal": "FAIL",
+    "invoice_total": "FAIL",
+    "overall": "FAIL",
+    "manual_review": "YES"
+  },
+  "line_items": [
+    {
+      "description": "integrate e-business web",
+      "quantity": 5.98,
+      "unit_price": 49.88,
+      "total_price": 970.45,
+      "computed": 298.28,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "embrace markets B2C",
+      "quantity": 4.44,
+      "unit_price": 49.63,
+      "total_price": 65.74,
+      "computed": 220.36,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "revolutionize strategic",
+      "quantity": 6.79,
+      "unit_price": 13.79,
+      "total_price": 110.43,
+      "computed": 93.63,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "reinvent e-business",
+      "quantity": 8.42,
+      "unit_price": 93.89,
+      "total_price": 604.07,
+      "computed": 790.55,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "mesh user-centric interfaces",
+      "quantity": 4.83,
+      "unit_price": 47.31,
+      "total_price": 121.37,
+      "computed": 228.51,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "redefine robust web",
+      "quantity": 9.52,
+      "unit_price": 68.71,
+      "total_price": 564.01,
+      "computed": 654.12,
+      "status": "MISMATCH"
+    },
+    {
+      "description": "architect distributed",
+      "quantity": 7.46,
+      "unit_price": 52.0,
+      "total_price": 122.05,
+      "computed": 387.92,
+      "status": "MISMATCH"
+    }
+  ]
+}
